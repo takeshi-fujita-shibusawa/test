@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Django App</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'myapp/css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ message }}</h1>
+        <p>This is a simple Django app with CSS.</p>
+    </div>
+</body>
+</html>
